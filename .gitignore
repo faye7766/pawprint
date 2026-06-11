@@ -1,0 +1,44 @@
+# Pawprint .gitignore
+
+# Secrets — never commit these
+.env
+*.json
+service-account*.json
+credentials*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Notebooks (outputs only)
+notebooks/*.ipynb
+
+# Local data / uploads (never commit real pet data)
+data/
+uploads/
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.mp4
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/

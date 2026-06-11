@@ -1,0 +1,44 @@
+# Pawprint · Python dependencies
+# Python 3.11+
+
+# ── GCP SDKs ──────────────────────────────────────────────
+google-cloud-bigquery>=3.11.0
+google-cloud-storage>=2.10.0
+google-cloud-pubsub>=2.18.0
+google-cloud-documentai>=2.20.0
+google-cloud-dlp>=3.12.0
+google-cloud-monitoring>=2.15.0
+google-cloud-datacatalog>=3.13.0
+
+# ── Vertex AI ─────────────────────────────────────────────
+google-cloud-aiplatform>=1.38.0
+vertexai>=1.38.0
+
+# ── RAG / LLM framework ───────────────────────────────────
+langchain>=0.2.0
+langchain-google-vertexai>=1.0.0
+langchain-community>=0.2.0
+
+# ── Data ──────────────────────────────────────────────────
+pandas>=2.1.0
+pyarrow>=14.0.0
+db-dtypes>=1.1.1
+
+# ── Serving ───────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.5.0
+streamlit>=1.35.0
+
+# ── Utilities ─────────────────────────────────────────────
+python-dotenv>=1.0.0
+structlog>=24.1.0
+tenacity>=8.2.0         # retry logic
+httpx>=0.27.0
+
+# ── Dev / test ────────────────────────────────────────────
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+pytest-mock>=3.12.0
+ruff>=0.4.0             # linter + formatter
+mypy>=1.9.0
