@@ -1,0 +1,1 @@
+Patient: Mochi. Visit: 2025-03-10. Diagnosis: URI. Medication: Doxycycline 25mg BID.
